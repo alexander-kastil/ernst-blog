@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 May 2025 20:59:01 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Blog Post</title>
+      <link>http://localhost:1313/posts/my-second-blog-post/</link>
+      <pubDate>Thu, 08 May 2025 20:59:01 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-second-blog-post/</guid>
+      <description>
+        
+          
+            &lt;p&gt;This is my second blog post. I am excited to share more content with you. Stay tuned for more updates!
+I will be writing about various topics, including programming, technology, and personal experiences. I hope you find my posts informative and engaging.
+I am looking forward to connecting with you through my blog. If you have any suggestions or topics you would like me to cover, feel free to reach out!
+I appreciate your support and interest in my blog. Thank you for reading!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Setup Hugo Blog</title>
+      <link>http://localhost:1313/posts/setup-hugo-blog/</link>
+      <pubDate>Thu, 08 May 2025 20:57:25 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/setup-hugo-blog/</guid>
+      <description>
+        
+          
+            &lt;p&gt;I&amp;rsquo;m starting a new blog to share my technical knowledge, hosted on GitHub Pages. I chose Hugo as the static site generator along with the elegant &lt;a href=&#34;https://github.com/chipzoller/hugo-clarity&#34;&gt;Clarity theme&lt;/a&gt;. Let me walk you through the setup process:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo CMS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download and install &lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;Hugo CLI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Create the Hugo blog directory using Hugo CLI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd quickstart
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/chipzoller/hugo-clarity themes/clarity
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#39;clarity&amp;#39; &amp;gt;&amp;gt; hugo.toml&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the first post:&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
